@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  position: fixed;
+  z-index: 10;
+  padding: 3%;
+  color: white;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+.navbar li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.logo {
+  font-size: 1.5rem;
+}
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+.first {
+  /* display: grid; */
+  height: 100vh;
+  /* place-content: center; */
+}
+.img-container {
+  transform: scale(0.5);
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+.img-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cookies {
+  position: fixed;
+  width: 35rem;
+  height: 18rem;
+  border-radius: 1rem;
+  background-color: rgb(0, 0, 0);
+  bottom: 3%;
+  left: 80%;
+  color: white;
+  z-index: 1000;
+}
+.cookies h1 {
+  font-size: 2.4rem;
+  padding: 5%;
+  font-weight: 500;
+}
+.cookies p {
+  font-size: 1.6rem;
+  padding: 3% 5%;
+  font-weight: 400;
+}
+.ok {
+  margin: 3% 5%;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.8rem;
+  background-color: white;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.second {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  padding: 5% 10%;
+}
+.title {
+}
+.title h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+.line {
+  height: 0.2px;
+  background-color: black;
+}
+.imgs {
+  display: flex;
+  gap: 1rem;
+  margin: 3rem 0;
+  height: 70vh;
+}
+.left {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.left img {
+  border-radius: 1rem;
+}
+.right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+
+.right div {
+  height: 50%;
+  overflow: hidden;
+}
+.right img {
+  border-radius: 1rem;
+}
+.third {
+  height: 100vh;
+  width: 100% n;
+}
+.page4 {
+  height: 50vh;
+  padding: 5% 10%;
+}
+.text-page4 {
+  padding-right: 40%;
+}
+.text-page4 p {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.about {
+  margin-bottom: 3rem;
+  font-size: 4rem;
+}
+.page5 {
+  display: flex;
+  padding: 5% 10%;
+  flex-direction: column;
+  height: 100vh;
+  gap: 1rem;
+}
+.div {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.text-box {
+  height: 100%;
+  padding: 5%;
+}
+.text-box h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.text-box p {
+  font-size: 2rem;
+  font-weight: 200;
+  padding-right: 10%;
+}
